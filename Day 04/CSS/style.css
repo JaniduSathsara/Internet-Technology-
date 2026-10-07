@@ -17,6 +17,7 @@ h2 {
     text-align: center;
     background-color: rgb(169, 169, 169);
     color: rgb(0, 0, 0);
+    text-shadow: 0ch 0ch 0.5ch rgb(236, 19, 19);
 }
 
 p{
@@ -51,5 +52,5 @@ p{
 /* UNIVERSAL SELECTOR */
 
 *{
-    background-color: rgb(40, 36, 36);
+    background-color: rgb(84, 88, 111);
 }
