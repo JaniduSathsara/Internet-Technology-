@@ -47,3 +47,9 @@ p{
     background-color: rgb(106, 239, 141);
     color: aliceblue;
 }
+
+/* UNIVERSAL SELECTOR */
+
+*{
+    background-color: rgb(40, 36, 36);
+}
