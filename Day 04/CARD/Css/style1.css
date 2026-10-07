@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Isometra&display=swap');
+
+.card{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.card-h2{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(183, 182, 161);
+    text-shadow: 2px 2px 0.5ch rgb(255, 225, 57);
+    font-family: "Isometra", serif;
+}
+
+.card-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 1200px;
+}
+
+.card-description{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(246, 238, 9);
+    text-shadow: 2px 2px 0.5ch rgb(178, 174, 151);
+}
+
+.card-btn{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0.5ch rgb(255, 225, 57);
+    border: none ;
+}
