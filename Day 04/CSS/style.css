@@ -9,3 +9,16 @@ h2 {
     background-color: rgb(169, 169, 169);
     color: rgb(0, 0, 0);
 }
+
+p{
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    font-style: inherit;
+}
+
+.hero{
+    background-color: rgb(63, 79, 118);
+    color: bisque;
+    font-style: italic;
+}
