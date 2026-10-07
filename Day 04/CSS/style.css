@@ -1,8 +1,11 @@
-h1 {
+/* ID selector */
+
+#title {
     text-align: center;
     background-color: rgb(49, 67, 235);
     color: rgb(227, 215, 215);
 }
+
 
 h2 {
     text-align: center;
