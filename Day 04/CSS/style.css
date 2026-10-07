@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Isometra&display=swap');
+
 /* ID selector */
 
 #title {
@@ -19,7 +20,7 @@ h2 {
     text-align: center;
     background-color: rgb(169, 169, 169);
     color: rgb(0, 0, 0);
-    font-family: "Isometra", serif;
+    /* font-family: "Isometra", serif; */
     text-shadow: 0ch 0ch 0.5ch rgb(236, 19, 19);
 }
 
