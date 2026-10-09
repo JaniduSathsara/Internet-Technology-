@@ -28,9 +28,6 @@
     outline: none;
 }
 
-.card input:focus {
-    border-color: #667eea;
-}
 
 .card button {
     width: 100%;
@@ -42,15 +39,6 @@
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
-}
-
-.card button:hover {
-    background: #4c5ed5;
-}
-
-.card .footer {
-    margin-top: 20px;
-    margin-bottom: 0;
 }
 
 
