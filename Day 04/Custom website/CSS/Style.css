@@ -13,22 +13,6 @@
     font-size: 28px;
 }
 
-.card p {
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 25px;
-}
-
-.card input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 7px;
-    outline: none;
-}
-
-
 .card button {
     width: 100%;
     padding: 12px;
