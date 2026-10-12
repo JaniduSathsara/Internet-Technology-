@@ -8,66 +8,75 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-    </ul>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-autoplay="true">
-        <div class="carousel-inner">
+    <span class="avatar">
+        <img class="avatar-img" src="Images/logo.png" alt="mdo">
+    </span>
+    <div align ="center" >
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <div id="carouselExampleContent" class="carousel slide">
+        <div class="carousel-inner rounded-5">
             <div class="carousel-item active">
-                <img src="..." class="d-block w-100 rounded-5" alt="...">
+                <div class="d-flex flex-column justify-content-center bg-subtle-primary p-9 bg-1 rounded-5"
+                    style="min-height: 320px;">
+                    <h3>Build anything</h3>
+                    <p class="fg-emphasis-secondary mb-3">Compose slides from your own markup—text, buttons, cards, or
+                        media.</p>
+                    <div><a class="btn-solid theme-primary" href="#">Get started</a></div>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100 rounded-5" alt="...">
+                <div class="d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5"
+                    style="min-height: 320px;">
+                    <h3>Style it your way</h3>
+                    <p class="fg-emphasis-secondary mb-3">Use utilities or custom CSS to size and theme each slide
+                        however you need.</p>
+                    <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100 rounded-5" alt="...">
+                <div class="d-flex flex-column justify-content-center text-end bg-subtle-warning p-9 bg-3 rounded-5"
+                    style="min-height: 320px;">
+                    <h3>Mix and match</h3>
+                    <p class="fg-emphasis-secondary mb-3">Combine custom content with controls, indicators, and the
+                        overlay layout.</p>
+                    <div><a class="btn-solid theme-inverse" href="#">Browse examples</a></div>
+                </div>
             </div>
         </div>
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div>
-                <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
-                    data-bs-target="#carouselExampleAutoplaying" aria-label="Pause" data-bs-pause-label="Pause"
-                    data-bs-play-label="Play">
-                    <span class="carousel-icon-pause" aria-hidden="true"></span>
-                    <span class="carousel-icon-play" aria-hidden="true"></span>
-                </button>
-                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-icon-prev" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-icon-next" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+        <div class="d-flex justify-content-center gap-2">
+            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent" data-bs-slide="prev"
+                style="--bs-carousel-control-icon-width: 1rem;">
+                <span class="carousel-icon-prev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent" data-bs-slide="next"
+                style="--bs-carousel-control-icon-width: 1rem;">
+                <span class="carousel-icon-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
+
 
 </body>
 
