@@ -33,7 +33,12 @@ function clickMeDiv() {
 
 let calHistory = ["10","20","30","40"];
 
-for (let i = 0; i < calHistory.length; i++) {
+/* for (let i = 0; i < calHistory.length; i++) {
     console.log(calHistory[i]);
     
+} */
+
+for(let num of calHistory){
+    console.log(num);
 }
+
