@@ -2,5 +2,8 @@ console.log("hello");
 
 
 function clickMe(){
-    console.log("button clicked");
+    //DOM Manupulatuon..
+    //console.log("button clicked");
+    console.log(document.getElementById("txtSample").value);
+    
 }
