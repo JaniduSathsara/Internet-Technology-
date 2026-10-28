@@ -1,14 +1,32 @@
 console.log("hello");
 
 
-function clickMe(){
+function clickMeAdd() {
     //DOM Manupulatuon..
 
 
     //console.log("button clicked");
     //console.log(document.getElementById("txtSample").value);
-    
-    let txtValue = document.getElementById("txtSample").value;
-    
-    document.getElementById("lblSection").innerHTML ="<h1>"+txtValue+"</h1>";
+
+    let txtValue = document.getElementById("txtSample1").value;
+    let num01 = parseInt(txtValue);
+    let txtValue2 = document.getElementById("txtSample2").value;
+    let num02 = parseInt(txtValue2);
+
+    let add = num01 + num02;
+
+    document.getElementById("lblSection").innerHTML = "<h1>" + add + "</h1>";
+
+}
+
+function clickMeDiv() {
+    let txtValue = document.getElementById("txtSample1").value;
+    let num01 = parseInt(txtValue);
+    let txtValue2 = document.getElementById("txtSample2").value;
+    let num02 = parseInt(txtValue2);
+
+    let subs = num01 - num02;
+
+    document.getElementById("lblSection").innerHTML = "<h1>" + subs + "</h1>";
+
 }
