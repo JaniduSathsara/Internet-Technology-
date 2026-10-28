@@ -1,7 +1,7 @@
 console.log("hello");
 
 
-function clickMeAdd() {
+/* function clickMeAdd() {
     //DOM Manupulatuon..
 
 
@@ -29,4 +29,11 @@ function clickMeDiv() {
 
     document.getElementById("lblSection").innerHTML = "<h1>" + subs + "</h1>";
 
+}  */
+
+let calHistory = ["10","20","30","40"];
+
+for (let i = 0; i < calHistory.length; i++) {
+    console.log(calHistory[i]);
+    
 }
