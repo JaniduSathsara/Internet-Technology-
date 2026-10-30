@@ -41,6 +41,21 @@ function AddButton() {
     customerList.push(customers);
     console.log(customerList);
     
+    let body = "";
+    
+    for (let customers of customerList){
+       body+= `  
+        <tr>
+            <td>${customers.name}</td>
+            <td>${customers.address}</td>
+            <td>${customers.age}</td>
+            <td>${customers.salary}</td>
+            <td>${customers.contact}</td>
+        </tr>
+       ` 
+    }
+
+    document.getElementById("tblCustomer").innerHTML=body;
 
 }
 
