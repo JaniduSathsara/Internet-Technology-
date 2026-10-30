@@ -1,5 +1,17 @@
 // console.log("hii");
 
+// -------------- OBJECT ARRAYS IN JavaScript-------------------//
+
+let customer = {
+    name : "Janidu",
+    age : "20",
+    address : "Panadura",
+    contact : "0784512354",
+    salary : 750000
+}
+
+//-------------------------------------------------------------//
+
 function AddButton() {
     // console.log("Add Student");
 
