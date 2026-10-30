@@ -2,14 +2,14 @@
 
 // -------------- OBJECT ARRAYS IN JavaScript-------------------//
 
-/* let customer = {
+ let customer = {
     name : "Janidu",
     age : "20",
     address : "Panadura",
     contact : "0784512354",
     salary : 750000
 }
- */
+ 
 //-------------------------------------------------------------//
 
 let customerList = [];
@@ -148,9 +148,6 @@ console.log(country.peoples.religons.r1); // accsess to Buddhist
 console.log(country.sports.s2);//accsess to vollyball
 console.log(country.sports.players[1].name); // accsess to arry using index
 console.log(country.sports.players[2].age); //accses to kasun's age
-
-
-
 
 //--------------------------------------------------------------------------------------//
 
