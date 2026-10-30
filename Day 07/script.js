@@ -12,10 +12,10 @@
  */
 //-------------------------------------------------------------//
 
-// let customerList=[];
+let customerList=[];
 let itemList = [];
 
-/* function AddButton() {
+function AddButton() {
     // console.log("Add Student");
 
     let name = document.getElementById("txtName").value;
@@ -42,13 +42,17 @@ let itemList = [];
     console.log(customerList);
     
 
-} */
+}
 
 
 function AddItemsButton(){
     let iName = document.getElementById("txtItemName").value;
     let iPrice = document.getElementById("txtItemPrice").value;
     let iQty = document.getElementById("txtItemQty").value;
+
+    console.log(iName);
+    console.log(iPrice);
+    console.log(iQty);
 
     let items = {
         itemName: iName,
