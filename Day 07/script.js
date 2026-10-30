@@ -41,7 +41,13 @@ function AddButton() {
     customerList.push(customers);
     console.log(customerList);
     
-    let body = "";
+    let body = `<tr>
+            <th>name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Salary</th>
+            <th>Contact</th>
+        </tr>`
     
     for (let customers of customerList){
        body+= `  
