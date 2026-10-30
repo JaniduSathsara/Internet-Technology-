@@ -12,9 +12,10 @@
  */
 //-------------------------------------------------------------//
 
-let customerList=[];
+// let customerList=[];
+let itemList = [];
 
-function AddButton() {
+/* function AddButton() {
     // console.log("Add Student");
 
     let name = document.getElementById("txtName").value;
@@ -39,6 +40,24 @@ function AddButton() {
 
     customerList.push(customers);
     console.log(customerList);
+    
+
+} */
+
+
+function AddItemsButton(){
+    let iName = document.getElementById("txtItemName").value;
+    let iPrice = document.getElementById("txtItemPrice").value;
+    let iQty = document.getElementById("txtItemQty").value;
+
+    let items = {
+        itemName: iName,
+        itemPrice:iPrice,
+        itemQty: iQty
+    };
+
+    itemList.push(items);
+    console.log(itemList);
     
 
 }
