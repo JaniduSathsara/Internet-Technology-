@@ -1,41 +1,39 @@
-// const customerNames = []
-// const itemsArray = []
+const customerNames = []
+const itemsArray = []
 
-// function clickMeButton() {
-//     let txtName = document.getElementById("txtName").value;
-//     // document.getElementById("lblCustomerNames").innerHTML += `<li>${txtName}</li>`
-//     customerNames.push(txtName)
-//     loadNames();
-// }
+function clickMeButton() {
+    let txtName = document.getElementById("txtName").value;
+    // document.getElementById("lblCustomerNames").innerHTML += `<li>${txtName}</li>`
+    customerNames.push(txtName)
+    loadNames();
+}
 
-// function loadNames() {
-//     document.getElementById("lblCustomerNames").innerHTML = "";
-//     for (let cusName of customerNames) {
-//         document.getElementById("lblCustomerNames").innerHTML += `<li>${cusName}</li>`
-//     }
+function loadNames() {
+    document.getElementById("lblCustomerNames").innerHTML = "";
+    for (let cusName of customerNames) {
+        document.getElementById("lblCustomerNames").innerHTML += `<li>${cusName}</li>`
+    }
+}
 
-// }
+///////////////////////////////////////////////////////
 
-// ///////////////////////////////////////////////////////
+function ItemAddButton() {
+    let iName = document.getElementById("itemName").value;
+    itemsArray.push(iName)
+    loadItems();
+}
 
-// function ItemAddButton() {
-//     let iName = document.getElementById("itemName").value;
-//     itemsArray.push(iName)
-//     loadItems();
-// }
-
-// function loadItems() {
-//     document.getElementById("lblitem").innerHTML = "";
-//     for (let itemsN of itemsArray) {
-//         document.getElementById("lblitem").innerHTML += `<li>${itemsN}</li>`
-//     }
-
-// }
+function loadItems() {
+    document.getElementById("lblitem").innerHTML = "";
+    for (let itemsN of itemsArray) {
+        document.getElementById("lblitem").innerHTML += `<li>${itemsN}</li>`
+    }
+}
 
 //////////////////////////////////////////////////////////////
 const customers = [];
 
-function AddCustomer(){
+function AddCustomer() {
     let cusID = document.getElementById("ID").value;
     let cusName = document.getElementById("Name").value;
     let cusAge = document.getElementById("Age").value;
@@ -51,5 +49,24 @@ function AddCustomer(){
     }
     customers.push(customer);
     console.log(customers);
-    
+
+    let body = `<tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Salary</th>
+        </tr>`
+
+    for (let customer of customers) {
+       body += `
+            <tr>
+                <td>${customer.ID}</td>
+                <td>${customer.Name}</td>
+                <td>${customer.Age}</td>
+                <td>${customer.Address}</td>
+                <td>${customer.Salary}</td>
+            </tr>`
+    }
+    document.getElementById("tblCus").innerHTML = body;
 }
