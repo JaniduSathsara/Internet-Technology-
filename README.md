@@ -55,7 +55,6 @@ This repository contains code examples, notes, and practice exercises to learn *
 
 🔗 [View Project on GitHub](https://github.com/JaniduSathsara/Personal-Janidu-Sathsara-)
 
----
 
 ### 2. Calculator Web App
 
@@ -64,6 +63,8 @@ This repository contains code examples, notes, and practice exercises to learn *
 🔹 Features a simple, user-friendly interface with interactive buttons and real-time calculation functionality.
 
 🔗 [View Project on GitHub](https://github.com/JaniduSathsara/Calculator-web-App)
+
+---
 
 ## 📖 Learning Resources
 
