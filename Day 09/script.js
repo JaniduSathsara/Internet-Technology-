@@ -110,7 +110,7 @@ console.log(getSum(10, 20));  */
 
 nameList.forEach(cName=> console.log(cName)); */
 
-const empSalary = [75000,30000,25000,90000,150000]
+/* const empSalary = [75000,30000,25000,90000,150000]
 const newEmpSalary =[];
 
 console.log(empSalary);
@@ -119,4 +119,16 @@ for(let salary of empSalary){
     let newSalary = salary *2
     newEmpSalary.push(newSalary) 
 }
-console.log(newEmpSalary);
+console.log(newEmpSalary); */
+
+
+//------------Array map ------------------
+
+const nameList = ["saman","kamal"];
+
+const newNameList =[];
+
+console.log(nameList.map(names => "Welcome "+ names));
+
+
+ 
