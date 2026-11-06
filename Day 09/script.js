@@ -56,7 +56,7 @@ console.log(numbers);
 
 /////////////////////////////////////////////// */
 
-const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
+/* const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
 
 function replaceNumber(){
 
@@ -69,4 +69,36 @@ function replaceNumber(){
 
     console.log(numbers);
     
-}
+} */
+
+//---------------------Methods----------------------
+
+//-------Step 01 >
+
+/* function getSum(num1,num2){
+    return num1+num2;
+} */
+
+//-------Step 02 >
+
+/* let getSum = function(num1,num2){
+    return num1+num2
+} */
+
+//-------Step 03 >
+
+/* let getSum = (num1,num2) =>{
+    return num1+num2;
+} */
+
+//-------Step 04 >
+
+/* let getSum = num1 =>{
+    return num1;
+} */
+
+//-------Step 05 >
+
+let getSum = num1 => num1;
+
+console.log(getSum(10,20));
