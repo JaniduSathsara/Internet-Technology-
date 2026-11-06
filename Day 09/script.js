@@ -41,3 +41,5 @@ console.log(numbers);
 
 numbers.pop(); //-- removes the last element from the array
 console.log(numbers);
+    
+console.log(numbers.toReversed()); //-- reverses the array and returns a new array
