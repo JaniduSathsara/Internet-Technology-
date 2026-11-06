@@ -124,11 +124,58 @@ console.log(newEmpSalary); */
 
 //------------Array map ------------------
 
-const nameList = ["saman","kamal"];
+/* const nameList = ["saman","kamal"];
 
 const newNameList =[];
 
-console.log(nameList.map(names => "Welcome "+ names));
+console.log(nameList.map(names => "Welcome "+ names)); */
+/* const newProductslist = [];
+const productList = [
+
+    {
+        id: 1,
+        name: "bun",
+        price: 350
+    },
+    {
+        id: 2,
+        name: "car",
+        price: 750
+    },
+    {
+        id: 3,
+        name: "Milk",
+        price: 820
+    },
+    {
+        id: 4,
+        name: "rice",
+        price: 1280
+    },
+
+]
 
 
- 
+console.log(productList.map(product => product.price * 0.15));
+
+
+for (let products of productList) {
+    console.log(products);
+
+    let tax = products.price * 0.15;
+
+    let newPrice = tax + products.price
+
+    console.log(productList.price.newPrice);
+}
+ */
+
+function replaceNumber() {
+    Swal.fire({
+        title: "Good job!",
+        text: "You clicked the button!",
+        icon: "success"
+    });
+
+}
+
