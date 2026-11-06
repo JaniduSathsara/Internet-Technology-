@@ -38,3 +38,6 @@ console.log(numbers);
 
 numbers.push(110); //-- adds an element to the array
 console.log(numbers);
+
+numbers.pop(); //-- removes the last element from the array
+console.log(numbers);
