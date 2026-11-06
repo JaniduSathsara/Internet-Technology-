@@ -32,7 +32,7 @@ console.log(names) */
 
 //---------Array data manipulation--------------//
 
-const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
+/* const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
 
 console.log(numbers);
 
@@ -54,3 +54,34 @@ console.log(numbers);
 numbers.shift(); //-- removes the first element from the array
 console.log(numbers);
 
+/////////////////////////////////////////////// */
+
+const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
+
+function displayarray() {
+
+    let body = "";
+
+    for (let num of numbers) {
+
+        body += document.getElementById("lblNum").innerHTML = `<h1>${num}</h1>`;
+
+    }
+
+    document.getElementById("lblNum").innerHTML = body;
+
+}
+
+function btnAdd() {
+
+    let newNumber = Number(document.getElementById("addAarray").value);
+
+    numbers.push(newNumber);
+
+    document.getElementById("addAarray").value = "";
+
+    displayarray();
+
+}
+
+displayarray();
