@@ -58,7 +58,7 @@ console.log(numbers);
 
 /* const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
 
-function replaceNumber(){
+function replaceNumber() {
 
     let oldNum = Number(document.getElementById("oldNumber").value);
     let newNum = Number(document.getElementById("newNumber").value);
@@ -68,7 +68,7 @@ function replaceNumber(){
     numbers[index] = newNum;
 
     console.log(numbers);
-    
+
 } */
 
 //---------------------Methods----------------------
@@ -99,6 +99,13 @@ function replaceNumber(){
 
 //-------Step 05 >
 
-let getSum = num1 => num1;
+/* let getSum = num1 => num1;
 
-console.log(getSum(10,20));
+console.log(getSum(10, 20));  */
+
+
+//-----------------------Call back Funtion----------
+
+const nameList = ["saman","kasun","nimal"]
+
+nameList.forEach(cName=> console.log(cName));
