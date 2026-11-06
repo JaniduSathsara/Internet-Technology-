@@ -106,6 +106,17 @@ console.log(getSum(10, 20));  */
 
 //-----------------------Call back Funtion----------
 
-const nameList = ["saman","kasun","nimal"]
+/* const nameList = ["saman","kasun","nimal"]
 
-nameList.forEach(cName=> console.log(cName));
+nameList.forEach(cName=> console.log(cName)); */
+
+const empSalary = [75000,30000,25000,90000,150000]
+const newEmpSalary =[];
+
+console.log(empSalary);
+
+for(let salary of empSalary){
+    let newSalary = salary *2
+    newEmpSalary.push(newSalary) 
+}
+console.log(newEmpSalary);
