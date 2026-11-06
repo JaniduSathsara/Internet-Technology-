@@ -51,3 +51,6 @@ console.log(numbers.length);
 numbers.unshift(5); //-- adds an element to the beginning of the array
 console.log(numbers);
 
+numbers.shift(); //-- removes the first element from the array
+console.log(numbers);
+
