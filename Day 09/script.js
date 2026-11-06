@@ -18,12 +18,14 @@ console.log(address); */
 
 //---var is function scoped, so it can be accessed outside the block.--//
 
-const names = ["Janidu", "kamal", "kasun", "nimal", "Ravindu"];
+
+//--------const--------------------/
+/* const names = ["Janidu", "kamal", "kasun", "nimal", "Ravindu"];
 
 console.log(names);
 
 names = "sadun"
-console.log(names)
+console.log(names) */
 
 
 //---const can't be reassigned,---//
