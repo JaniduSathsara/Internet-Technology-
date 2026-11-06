@@ -32,7 +32,7 @@ console.log(names) */
 
 //---------Array data manipulation--------------//
 
-const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
 
 console.log(numbers);
 
@@ -43,3 +43,11 @@ numbers.pop(); //-- removes the last element from the array
 console.log(numbers);
     
 console.log(numbers.toReversed()); //-- reverses the array and returns a new array
+
+console.log(numbers.toSorted()); //-- sorts the array and returns a new array(does not sorted)
+
+console.log(numbers.length);
+
+numbers.unshift(5); //-- adds an element to the beginning of the array
+console.log(numbers);
+
