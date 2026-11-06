@@ -58,30 +58,15 @@ console.log(numbers);
 
 const numbers = [10, 20, 60, 70, 80, 30, 40, 50, 90, 100];
 
-function displayarray() {
+function replaceNumber(){
 
-    let body = "";
+    let oldNum = Number(document.getElementById("oldNumber").value);
+    let newNum = Number(document.getElementById("newNumber").value);
 
-    for (let num of numbers) {
+    let index = numbers.indexOf(Number(oldNum));
 
-        body += document.getElementById("lblNum").innerHTML = `<h1>${num}</h1>`;
+    numbers[index] = newNum;
 
-    }
-
-    document.getElementById("lblNum").innerHTML = body;
-
+    console.log(numbers);
+    
 }
-
-function btnAdd() {
-
-    let newNumber = Number(document.getElementById("addAarray").value);
-
-    numbers.push(newNumber);
-
-    document.getElementById("addAarray").value = "";
-
-    displayarray();
-
-}
-
-displayarray();
