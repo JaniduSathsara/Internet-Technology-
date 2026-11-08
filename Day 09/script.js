@@ -170,6 +170,8 @@ for (let products of productList) {
 }
  */
 
+////animations///
+
 function replaceNumber() {
     Swal.fire({
         title: "Good job!",
@@ -179,5 +181,5 @@ function replaceNumber() {
 
 }
 
-////animations///
+
 
