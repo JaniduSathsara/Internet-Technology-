@@ -1,0 +1,12 @@
+Types of APIs
+
+GET - > Used to get data from a server.
+
+POST - > Used to send data to a server
+
+PUT - > Used to replace an existing resource completely.
+
+PATCH - > Used to update specific fields of an existing resource.
+
+DELETE - > Used to delete an existing resource from a server.
+
