@@ -20,7 +20,7 @@ function loadSection(data) {
                     <div class="card-body">
                         <h4 class="card-title">${element.title}</h4>
                         <p class="card-text">${element.description}</p>
-                        <a href="#" class="btn-solid theme-primary">${element.price} Buy Now</a>
+                        <a href="#" class="btn-solid theme-primary">${element.price}- Buy Now</a>
                     </div>
                 </section>
             </div>
