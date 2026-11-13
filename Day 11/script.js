@@ -20,7 +20,7 @@ function loadSection(data) {
                     <div class="card-body">
                         <h4 class="card-title">${element.title}</h4>
                         <p class="card-text">${element.description}</p>
-                        <a href="#" class="btn-solid theme-primary">${element.price}- Buy Now</a>
+                        <button onclick="btnBuy()" class="btn-solid theme-primary">${element.price}- Buy Now</button>
                     </div>
                 </section>
             </div>
@@ -28,4 +28,15 @@ function loadSection(data) {
     });
 
     document.getElementById("sectionData").innerHTML = body;
+}
+
+function btnBuy() {
+    Swal.fire({
+        title: "Title!",
+        text: "Modal with a custom image.",
+        imageUrl: `${element.image}`,
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "Custom image"
+    });
 }
