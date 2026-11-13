@@ -1,14 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
 <body>
 
-    <h1>hello</h1>
-    
+    <nav class="navbar md:navbar-expand bg-1" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dark navbar</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                data-bs-target="#navbarDarkDrawer" aria-controls="navbarDarkDrawer" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-end" tabindex="-1" id="navbarDarkDrawer"
+                aria-labelledby="navbarDarkDrawerLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarDarkDrawerLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body mb-2 md:mb-0">
+                    <ul class="nav navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Menu
+                            </button>
+                            <div class="menu">
+                                <a class="menu-item" href="#">Action</a>
+                                <a class="menu-item" href="#">Another action</a>
+                                <hr class="menu-divider">
+                                <a class="menu-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="hstack gap-2" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn-solid btn-icon theme-secondary" type="submit">
+                            <svg class="bi" width="16" height="16">
+                                <use href="#search" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </dialog>
+        </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-autoplay="true">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.pinimg.com/1200x/58/00/fa/5800fae45559f2488e2d11e4f8054b8c.jpg"
+                    class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/bf/ba/47/bfba479654b4293391eec9face7862d5.jpg"
+                    class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/1200x/68/e0/48/68e0483eb5273624d74554dfc62457c4.jpg"
+                    class="d-block w-100 rounded-5" alt="...">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div>
+                <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" aria-label="Pause" data-bs-pause-label="Pause"
+                    data-bs-play-label="Play">
+                    <span class="carousel-icon-pause" aria-hidden="true"></span>
+                    <span class="carousel-icon-play" aria-hidden="true"></span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div></div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
