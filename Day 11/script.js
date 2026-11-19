@@ -1,4 +1,5 @@
 console.log("hi");
+let data
 
 fetch('https://fakestoreapi.com/products').then(response => response.json()).then(data => {
     console.log(data)
@@ -31,12 +32,15 @@ function loadSection(data) {
 }
 
 function btnBuy() {
+    console.log("hi");
+    
     Swal.fire({
         title: "Title!",
         text: "Modal with a custom image.",
-        imageUrl: `${element.image}`,
+        imageUrl:'',
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "Custom image"
     });
 }
+
