@@ -39,7 +39,6 @@
 
 // ]
 
-
 // let arcustomer = JSON.stringify(customerList)
 // localStorage.setItem("customerList",arcustomer)
 
@@ -56,28 +55,29 @@ function btnAdd() {
 
     customerArray.push(
         {
-            name:cName,
-            age:cAge,
-            city:cCity
-        }
+            name: cName,
+            age: cAge,
+            city: cCity
+        },
     )
 
     let listCustomers = JSON.stringify(customerArray)
-    localStorage.setItem("customerArray",listCustomers)
+    localStorage.setItem("customerArray", listCustomers)
 
     // console.log(customerArray);
-    
+
 }
 
 function btnView() {
-    
-    localStorage.getItem("customerArray")
 
-    let listOfCustomers = JSON.parse(listOfCustomers)
+    let cusArray  = localStorage.getItem("customerArray")
+    JSON.stringify(cusArray)
+    console.log(cusArray);
 
     document.getElementById("lblDisplay").innerHTML = `
-    <h1>${listOfCustomers}</h1>
-    ` 
+        <h2>${cusArray}</h2>
+        
+    `
 }
 
 // localStorage.clear()
